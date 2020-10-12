@@ -1,7 +1,7 @@
 {
   "name": "require-external-bytecode",
   "version": "1.0.0",
-  "description": "",
+  "description": "This module will add functionality of requiring external .jsc module into your Node application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
