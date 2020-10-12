@@ -7,7 +7,6 @@ async function requireModule(url) {
     const file = await getTempFile();
     const data = await getExternalFile(url);
 
-    console.log(`writing ${url} to ${file.path}`);
     fs.writeFileSync(file.path, data);
 
     const loadedModule = require(file.path);
